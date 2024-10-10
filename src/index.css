@@ -1,0 +1,11 @@
+:root {
+  --pry: #07969E;
+  --heading: #2D2D2D;
+  --text: #4A5050;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

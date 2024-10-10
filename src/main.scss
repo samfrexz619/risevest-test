@@ -1,0 +1,68 @@
+@font-face {
+  font-family: TomatoGrotesk;
+  font-weight: 300;
+  src: url('./assets/fonts/TomatoGrotesk-Light.528f79fd.otf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: TomatoGrotesk;
+  font-weight: 400;
+  src: url('./assets/fonts/TomatoGrotesk-Regular.63ff49eb.otf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: TomatoGrotesk;
+  font-weight: 500;
+  src: url('./assets/fonts/TomatoGrotesk-Medium.8b894f94.otf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: TomatoGrotesk;
+  font-weight: 600;
+  src: url('./assets/fonts/TomatoGrotesk-SemiBold.1183d758.otf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: TomatoGrotesk;
+  font-weight: 700;
+  src: url('./assets/fonts/TomatoGrotesk-Bold.74a33382.otf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: DMSans;
+  font-weight: 400;
+  src: url('./assets/fonts/DMSans-Regular.63b81c16.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: DMSans;
+  font-weight: 500;
+  src: url('./assets/fonts/DMSans-Medium.e05a9e78.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: DMSans;
+  font-weight: 700;
+  src: url('./assets/fonts/DMSans-Bold.14369232.ttf');
+  font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: TomatoGrotesk;
+}
+
+p {
+  font-family: DMSans;
+}

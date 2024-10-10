@@ -1,8 +1,9 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 // components
-import './main.scss'
 import DefaultLayout from './layout/DefaultLayout';
 import HomePage from './pages/HomePage';
+import { AboutUs, BlogPage, FaqsPage, InvestmentClub, ProductPage } from './pages/AllRoutes';
+import './main.css'
 
 
 const router = createBrowserRouter([
@@ -13,7 +14,27 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <HomePage />
-      }
+      },
+      {
+        path: '/about-us',
+        element: <AboutUs />
+      },
+      {
+        path: '/blog',
+        element: <BlogPage />
+      },
+      {
+        path: '/faqs',
+        element: <FaqsPage />
+      },
+      {
+        path: '/investment-club',
+        element: <InvestmentClub />
+      },
+      {
+        path: '/products',
+        element: <ProductPage />
+      },
     ]
   }
 ])

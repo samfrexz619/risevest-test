@@ -1,0 +1,69 @@
+.header {
+  @media (min-width: 1280px) {
+    height: 91px;
+    width: 1152px;
+    margin: 0 auto;
+    padding: 0 120px;
+  }
+
+  height: 54px;
+  width: 100%;
+  padding: 0 16px;
+  background-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: TomatoGrotesk;
+
+  &-logo {
+    display: block;
+  }
+
+  &__nav {
+    @media (min-width: 1024px) {
+      background: white;
+      height: 35px;
+      width: 502px;
+      display: flex;
+      justify-content: space-between;
+      color: var(--pry);
+      font-weight: 400;
+
+      .active {
+        font-weight: 700;
+      }
+
+    }
+
+    display: none;
+
+  }
+
+  &__links {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    display: block;
+    transition: .2s linear;
+  }
+
+  &-menu {
+    @media (min-width: 1024px) {
+      display: none;
+    }
+
+    display: block;
+  }
+}
+
+.active-circle {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  border-radius: 50%;
+  bottom: 0;
+  background: var(--pry);
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}

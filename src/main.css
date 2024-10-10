@@ -62,7 +62,7 @@
 }
 
 body {
-  contain: paint;
+  overflow-x: hidden;
 }
 
 h1,

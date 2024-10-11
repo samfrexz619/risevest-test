@@ -1,12 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import rightIcon from '@/assets/images/arr-right.svg';
 import image1 from '@/assets/images/body/image1.png';
 import image2 from '@/assets/images/body/image2.png';
 import image3 from '@/assets/images/body/image3.png';
 import image4 from '@/assets/images/body/image4.png';
 
 import './landing.scss';
+import PageIcon from '../PageIcon';
 
 
 interface Props {
@@ -24,7 +24,7 @@ const BodySection: React.FC<Props> = (props) => {
           <p>By holding your investments in a stable currency, your money grows more over time and retains its value better.</p>
           <NavLink to='#' className='link'>
             <span>Start Investing Now</span>
-            <img src={rightIcon} alt="right arrow" height={12} />
+            <PageIcon iconName='arr-right' />
           </NavLink>
         </div>
         <div className="body__text1 show">
@@ -52,7 +52,7 @@ const BodySection: React.FC<Props> = (props) => {
           <p>Unlike other platforms, Rise lets you pick between stocks, US real estate and fixed income, according to your risk appetite. That way you can spread your risk and tap into different investments all in one place. </p>
           <NavLink to='#' className='link'>
             <span>Start Investing Now</span>
-            <img src={rightIcon} alt="right arrow" height={12} />
+            <PageIcon iconName='arr-right' />
           </NavLink>
         </div>
         <div className="body__text2 show">
@@ -73,7 +73,7 @@ const BodySection: React.FC<Props> = (props) => {
           <p>You can invest towards a goal on Rise--retirement, higher education, save for your home or travel budgets. Or create a goal of your own and invest periodically to achieve them. </p>
           <NavLink to='#' className='link'>
             <span>Start Investing Now</span>
-            <img src={rightIcon} alt="right arrow" height={12} />
+            <PageIcon iconName='arr-right' />
           </NavLink>
         </div>
         <div className="body__text2 show">
@@ -104,7 +104,7 @@ const BodySection: React.FC<Props> = (props) => {
           </p>
           <NavLink to='#' className='link'>
             <span>Start Investing Now</span>
-            <img src={rightIcon} alt="right arrow" height={12} />
+            <PageIcon iconName='arr-right' />
           </NavLink>
         </div>
         <div className="body__text2 show">

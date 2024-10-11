@@ -1,0 +1,108 @@
+.save {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: none;
+
+  @media (min-width: 1024px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 509px;
+    width: 877px;
+  }
+
+  &__phone {
+    position: relative;
+    width: 326px;
+    height: 100%;
+  }
+
+  &__bg {
+    background-image: url('@/assets/images/save/wealth-bg.png');
+    background-repeat: no-repeat;
+    height: 269px;
+    position: absolute;
+    left: -15px;
+    width: 336px;
+    top: 50%;
+    background-size: cover;
+    border-radius: 12px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 20px;
+  }
+
+  &__text {
+    width: 260px;
+    height: 85px;
+    // background-color: aliceblue;
+    color: white;
+
+    h5 {
+      font-size: 16px;
+      font-weight: 700px;
+    }
+
+    p {
+      font-size: 12px;
+      padding-top: 8px;
+    }
+
+    a {
+      display: flex;
+      font-size: 12px;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 700;
+      font-family: var(--dmsans);
+      padding-top: 8px;
+      text-decoration: underline;
+    }
+  }
+
+  aside {
+    width: 401px;
+    height: 254px;
+
+    h4 {
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--heading);
+    }
+
+    h2 {
+      font-weight: 600;
+      font-size: 40px;
+      letter-spacing: -5%;
+      color: var(--heading);
+      margin-top: 10px;
+
+      span {
+        color: #8c5ff8;
+      }
+    }
+
+    p {
+      color: var(--text);
+      margin-top: 16px;
+    }
+
+    button {
+      margin-top: 32px;
+      background: var(--pry);
+      width: 160px;
+      height: 48px;
+      border-radius: 5px;
+      color: white;
+      font-weight: 700;
+      font-size: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

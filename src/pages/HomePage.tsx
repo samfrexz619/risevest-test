@@ -5,6 +5,7 @@ import SocialProof from '@/components/landing/SocialProof';
 import '@/components/landing/banner/banner.scss'
 import AssetCls from '@/components/landing/AssetCls';
 import BodySection from '@/components/landing/BodySection';
+import SaveForFuture from '@/components/landing/save/SaveForFuture';
 
 const HomePage: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage: React.FC = () => {
       <SocialProof />
       <BodySection />
       <AssetCls />
+      <SaveForFuture />
     </section>
   );
 }

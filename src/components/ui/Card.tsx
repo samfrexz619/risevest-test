@@ -1,7 +1,7 @@
 import React from 'react';
-import rightIcon from '@/assets/images/arr-right.svg';
 import { NavLink } from 'react-router-dom';
 import { AssetItem } from '@/types/types';
+import PageIcon from '../PageIcon';
 
 interface CardProps {
   items: AssetItem;
@@ -39,7 +39,7 @@ const Card: React.FC<CardProps> = (props) => {
         <NavLink to='#'>
           <h6>{items.linkText}</h6>
           <div className='icon'>
-            <img src={rightIcon} alt="right arrow" />
+            <PageIcon iconName='arr-right' />
           </div>
         </NavLink>
       </div>

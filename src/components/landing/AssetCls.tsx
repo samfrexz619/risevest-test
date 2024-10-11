@@ -1,7 +1,7 @@
 import React from 'react';
-import './landing.scss';
 import Card from '../ui/Card';
 import { AssetItem } from '@/types/types';
+import './landing.scss';
 
 interface Props {
 

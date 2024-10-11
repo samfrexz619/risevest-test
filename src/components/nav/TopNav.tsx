@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
-import logo from '@/assets/images/logo.png';
 import menuIcon from '@/assets/images/menu.svg';
 import PageIcon from '../PageIcon';
 import { navLinks } from '@/constants/navlinks';
@@ -19,12 +18,12 @@ const TopNav: React.FC<TopNavProps> = ({ openMobileNav }) => {
     <>
       <header className='header'>
         <NavLink to='/' className='header-logo'>
-          <img src={logo} alt="company logo" />
+          <PageIcon iconName='logo' />
         </NavLink>
         <nav className={`header__nav`}>
           {
             navLinks.map(link => (
-              <NavLink to={link.path} key={link.id} className={`${link.path === pathname && 'active'} header__links`}>
+              <NavLink to={link.path} key={link.id} className={`${link.path === pathname && 'active-link'} header__links`}>
                 <span className=''>{link.pathName}</span>
                 {link.pathName === 'Products'
                   && <span className='arr'>

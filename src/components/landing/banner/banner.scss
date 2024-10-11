@@ -77,18 +77,19 @@
 
 .proof {
   height: 103px;
-  // background-color: pink;
   display: flex;
   flex-direction: column;
   padding: 0 16px;
   width: 100%;
   contain: paint;
+  margin: 0 auto;
 
   @media (min-width: 1024px) {
     flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 0;
+    width: 1152px;
   }
 
   p {
@@ -109,19 +110,24 @@
     height: 100%;
     display: flex;
     align-items: center;
+    gap: 5px;
     justify-content: space-between;
-    gap: 15px;
 
     @media (min-width: 1024px) {
+      justify-content: center;
       gap: 30px;
       width: 457px;
 
     }
   }
 
-  // img {
-  //   display: block;
-  //   width: 100%;
-  //   height: auto;
-  // }
+  img {
+    display: block;
+    height: auto;
+    width: 70px;
+
+    @media (min-width: 1024px) {
+      width: 100%;
+    }
+  }
 }

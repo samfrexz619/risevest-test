@@ -14,10 +14,10 @@ const SocialProof: React.FC<Props> = () => {
     <div className='proof'>
       <p>We are supported by</p>
       <div className='proof__container'>
-        <img src={arm} alt="" />
-        <img src={image2} alt="" />
-        <img src={image3} alt="" />
-        <img src={image4} alt="" />
+        <img src={arm} alt="arm logo" />
+        <img src={image2} alt="wester union logo" />
+        <img src={image3} alt="techstars logo" />
+        <img src={image4} alt="logo" />
       </div>
     </div>
   );

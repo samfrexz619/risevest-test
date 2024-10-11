@@ -1,0 +1,127 @@
+.banner {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  background-color: aliceblue;
+  display: flex;
+  margin-top: 23px;
+  gap: 60px;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 80px;
+
+  @media (min-width: 1024px) {
+    justify-content: space-between;
+    height: 461px;
+    width: 931px;
+    flex-direction: row;
+  }
+
+  &__text {
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+
+    @media (min-width: 1024px) {
+      height: 264px;
+      width: 456px;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 40px;
+      line-height: 36px;
+      letter-spacing: -5%;
+      text-align: center;
+      font-weight: 600;
+
+      @media (min-width: 1024px) {
+        line-height: 60px;
+        font-size: 56px;
+        text-align: unset;
+      }
+    }
+
+    p {
+      margin-top: 16px;
+      text-align: center;
+      width: 391px;
+
+      @media (min-width: 1024px) {
+        text-align: unset;
+      }
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 1024px) {
+      display: block;
+    }
+  }
+
+  &__btn {
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+  }
+
+  &__image {
+    height: 461px;
+  }
+}
+
+.proof {
+  height: 103px;
+  // background-color: pink;
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+  width: 100%;
+  contain: paint;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+
+  p {
+    color: #7B8DA8;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--dmsans);
+    width: 100%;
+    display: block;
+
+    @media (min-width: 1024px) {
+      display: none;
+    }
+  }
+
+  &__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+    @media (min-width: 1024px) {
+      gap: 30px;
+      width: 457px;
+
+    }
+  }
+
+  // img {
+  //   display: block;
+  //   width: 100%;
+  //   height: auto;
+  // }
+}

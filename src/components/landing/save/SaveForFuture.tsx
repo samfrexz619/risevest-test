@@ -5,11 +5,8 @@ import PageIcon from '@/components/PageIcon';
 import './save.scss';
 
 
-interface Props {
 
-}
-
-const SaveForFuture: React.FC<Props> = (props) => {
+const SaveForFuture: React.FC = () => {
   return (
     <section className='save'>
       <div className='save__phone'>

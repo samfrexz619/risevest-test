@@ -1,10 +1,7 @@
 import React from 'react';
 
-interface Props {
 
-}
-
-const Regulated: React.FC<Props> = (props) => {
+const Regulated: React.FC = () => {
   return (
     <section className='regulated'>
       <div className='regulated__text'>

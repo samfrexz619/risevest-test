@@ -5,11 +5,8 @@ import { useResize } from '@/hooks/useResize';
 import Circle from '@/components/ui/Circle';
 import './banner.scss';
 
-interface Props {
 
-}
-
-const Banner: React.FC<Props> = (props) => {
+const Banner: React.FC = () => {
   const { isMobile } = useResize()
   return (
     <section className='banner'>

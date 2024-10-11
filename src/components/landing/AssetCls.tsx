@@ -3,11 +3,8 @@ import Card from '../ui/Card';
 import { AssetItem } from '@/types/types';
 import './landing.scss';
 
-interface Props {
 
-}
-
-const AssetCls: React.FC<Props> = (props) => {
+const AssetCls: React.FC = () => {
 
   const items: AssetItem[] = [
     {

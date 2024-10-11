@@ -1,11 +1,9 @@
-import Circle from '@/components/ui/Circle';
 import React from 'react';
+import Circle from '@/components/ui/Circle';
 
-interface Props {
 
-}
 
-const DemoPage: React.FC<Props> = (props) => {
+const DemoPage: React.FC = () => {
   return (
     <div className='demo'>
       <Circle size='medium' />

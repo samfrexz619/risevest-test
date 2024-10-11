@@ -5,11 +5,8 @@ import image3 from '@/assets/images/social-proof/tstars.png';
 import image4 from '@/assets/images/social-proof/image1.png';
 
 
-interface Props {
 
-}
-
-const SocialProof: React.FC<Props> = () => {
+const SocialProof: React.FC = () => {
   return (
     <div className='proof'>
       <p>We are supported by</p>

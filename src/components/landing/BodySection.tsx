@@ -8,11 +8,8 @@ import PageIcon from '../PageIcon';
 import './landing.scss';
 
 
-interface Props {
 
-}
-
-const BodySection: React.FC<Props> = (props) => {
+const BodySection: React.FC = () => {
   return (
     <section className='body'>
       <div className='body__container body-text1'>

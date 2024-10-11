@@ -23,8 +23,29 @@ li {
   list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading);
+}
+
 button {
   border: none;
   background: inherit;
   cursor: pointer;
+}
+
+.reset {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.reset::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
 }

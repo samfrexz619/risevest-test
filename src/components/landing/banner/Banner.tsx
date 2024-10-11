@@ -1,7 +1,7 @@
 import React from 'react';
 import phone from '@/assets/images/phone.png';
-import './banner.scss';
 import BtnImage from '@/components/ui/BtnImage';
+import './banner.scss';
 
 interface Props {
 

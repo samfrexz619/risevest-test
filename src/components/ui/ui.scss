@@ -13,13 +13,17 @@
 
 .card {
   height: 515px;
-  width: 300px;
+  width: 310px;
   border-radius: 5px;
   border: 2px solid rgba(145, 159, 181, 0.2);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 31px;
+
+  @media (min-width: 1024px) {
+    width: 300px;
+  }
 
   &__top {
     position: relative;
@@ -83,7 +87,7 @@
     display: flex;
     justify-content: center;
 
-    a {
+    .link {
       position: relative;
       // width: 184px;
       height: 14px;
@@ -91,20 +95,17 @@
       font-weight: 600;
       color: var(--pry);
       gap: 10px;
+
+      p {
+        display: block;
+        font-size: 16px;
+      }
     }
 
-    h6 {
-      display: block;
-      // margin-right: -20px;
-      font-size: 16px;
-    }
 
     .icon {
-      // transform: rotate(-90deg);
       display: block;
-      // position: absolute;
-      right: -7px;
-      top: -5px;
+
     }
   }
 }

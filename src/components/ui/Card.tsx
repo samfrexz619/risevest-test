@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { AssetItem } from '@/types/types';
 import PageIcon from '../PageIcon';
+import './ui.scss';
 
 interface CardProps {
   items: AssetItem;
@@ -36,8 +37,9 @@ const Card: React.FC<CardProps> = (props) => {
       </div>
 
       <div className='card__footer'>
-        <NavLink to='#'>
-          <h6>{items.linkText}</h6>
+
+        <NavLink to='#' className='link'>
+          <p>{items.linkText}</p>
           <div className='icon'>
             <PageIcon iconName='arr-right' />
           </div>

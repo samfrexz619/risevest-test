@@ -5,3 +5,10 @@ export interface AssetItem {
   image: string;
   linkText: string;
 }
+
+export interface Testifiers {
+  id: string;
+  text: string;
+  image: string;
+  name: string;
+}

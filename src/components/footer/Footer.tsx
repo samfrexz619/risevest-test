@@ -5,11 +5,8 @@ import { contact, explore, footerLink, products } from '@/constants/navlinks';
 import arrow from '@/assets/images/arr.svg';
 import './footer.scss';
 
-interface Props {
 
-}
-
-const Footer: React.FC<Props> = (props) => {
+const Footer: React.FC = () => {
   return (
     <footer>
       <nav>

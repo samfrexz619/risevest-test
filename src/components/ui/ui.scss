@@ -121,3 +121,35 @@
 .income {
   background: #ECFEFE;
 }
+
+.circle {
+  border-radius: 50%;
+  position: relative;
+  margin: 0 10px;
+  animation: bounce 2s infinite ease-in-out;
+  background: radial-gradient(circle at 30% 30%, #D2F1F3, #7DB9BC 70%);
+  box-shadow: inset -10px -10px 20px rgba(255, 255, 255, 0.5),
+    10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.md-size {
+  width: 56px;
+  height: 56px;
+}
+
+.sm-size {
+  width: 32px;
+  height: 32px;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(100px);
+  }
+}

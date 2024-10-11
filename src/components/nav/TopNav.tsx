@@ -3,6 +3,8 @@ import { NavLink, useLocation } from 'react-router-dom';
 import menuIcon from '@/assets/images/menu.svg';
 import PageIcon from '../PageIcon';
 import { navLinks } from '@/constants/navlinks';
+// import lock from '@/assets/images/lock.svg';
+
 import './nav.scss';
 
 
@@ -16,6 +18,10 @@ const TopNav: React.FC<TopNavProps> = ({ openMobileNav }) => {
 
   return (
     <>
+      {/* <div className='webrise'>
+        <img src={lock} alt="padlock" />
+        <p>web.rise.capital</p>
+      </div> */}
       <header className='header'>
         <NavLink to='/' className='header-logo'>
           <PageIcon iconName='logo' />

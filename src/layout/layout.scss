@@ -2,3 +2,72 @@ main {
   min-height: 100vh;
   // contain: paint;
 }
+
+.scroll__header {
+  top: 0;
+  position: sticky;
+  z-index: 100;
+  transition: top 0.3s;
+  transition: transform 0.3s ease-in-out;
+}
+
+.scroll__header.visible {
+  transform: translateY(0);
+}
+
+.scroll__header.hidden {
+  transform: translateY(-100%);
+}
+
+// .demo {
+//   background: antiquewhite;
+//   height: 500px;
+//   width: 100%;
+
+//   .circle {
+//     width: 56px;
+//     height: 56px;
+//     // background-color: #A0DDE2;
+//     /* Tomato color */
+//     border-radius: 50%;
+//     position: relative;
+//     margin: 0 10px;
+//     animation: bounce-elastic 2s infinite ease-in-out;
+//     background: radial-gradient(circle at 30% 30%, #D2F1F3, #7DB9BC 70%);
+//     box-shadow: inset -10px -10px 20px rgba(255, 255, 255, 0.5),
+//       /* Inner shadow for light source */
+//       10px 10px 20px rgba(0, 0, 0, 0.3);
+//   }
+// }
+
+// @keyframes bounce {
+
+//   0%,
+//   100% {
+//     transform: translateY(0);
+//   }
+
+//   50% {
+//     transform: translateY(100px);
+//   }
+// }
+
+@keyframes bounce-elastic {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  30% {
+    transform: translateY(180px);
+  }
+
+  60% {
+    transform: translateY(90px);
+  }
+
+  90% {
+    transform: translateY(30px);
+  }
+}

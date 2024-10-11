@@ -4,6 +4,7 @@ import DefaultLayout from './layout/DefaultLayout';
 import HomePage from './pages/HomePage';
 import { AboutUs, BlogPage, FaqsPage, InvestmentClub, ProductPage } from './pages/AllRoutes';
 import './main.css'
+import DemoPage from './pages/demo';
 
 
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: '/products',
         element: <ProductPage />
+      },
+      {
+        path: '/demo',
+        element: <DemoPage />
       },
     ]
   }

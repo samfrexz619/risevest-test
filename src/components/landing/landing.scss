@@ -217,7 +217,7 @@
 
 .show {
   display: block;
-  width: 100%;
+  width: 326px;
 
   @media (min-width: 1024px) {
     display: none;
@@ -264,7 +264,12 @@
 
     h3 {
       font-weight: 600;
-      font-size: 40px;
+      font-size: 30px;
+      letter-spacing: -5%;
+
+      @media (min-width: 1024px) {
+        font-size: 40px;
+      }
     }
 
     p {

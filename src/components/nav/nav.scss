@@ -2,7 +2,7 @@
   height: 54px;
   width: 100%;
   padding: 0 16px;
-  background-color: bisque;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,9 +10,9 @@
 
   @media (min-width: 1280px) {
     height: 91px;
-    width: 1152px;
+    width: 912px;
     margin: 0 auto;
-    padding: 0 120px;
+    // padding: 0 120px;
   }
 
   &-logo {
@@ -41,6 +41,11 @@
     text-align: center;
     display: flex;
     transition: .2s linear;
+
+    @media (min-width: 1024px) {
+      gap: 23px;
+
+    }
   }
 
   &-menu {
@@ -121,4 +126,21 @@
     color: var(--pry);
   }
 
+}
+
+.webrise {
+  height: 36px;
+  width: 375px;
+  display: flex;
+  background: rgba(0, 0, 0, 0.08);
+  margin: 10px auto;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  z-index: -10;
+
+  @media (min-width: 640px) {
+    display: none;
+  }
 }

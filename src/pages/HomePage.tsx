@@ -7,8 +7,9 @@ import BodySection from '@/components/landing/BodySection';
 import SaveForFuture from '@/components/landing/save/SaveForFuture';
 import Regulated from '@/components/landing/Regulated';
 import Testimonial from '@/components/landing/testimonial/Testimonial';
-import '@/components/landing/banner/banner.scss';
 import JoinRise from '@/components/landing/community/JoinRise';
+import Download from '@/components/landing/download/Download';
+import '@/components/landing/banner/banner.scss';
 
 const HomePage: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage: React.FC = () => {
       <Regulated />
       <Testimonial />
       <JoinRise />
+      <Download />
     </section>
   );
 }

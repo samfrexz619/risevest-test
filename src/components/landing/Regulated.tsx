@@ -17,4 +17,4 @@ const Regulated: React.FC<Props> = (props) => {
   );
 }
 
-export default Regulated;
+export default Regulated; 

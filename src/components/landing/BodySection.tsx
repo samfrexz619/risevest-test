@@ -4,9 +4,8 @@ import image1 from '@/assets/images/body/image1.png';
 import image2 from '@/assets/images/body/image2.png';
 import image3 from '@/assets/images/body/image3.png';
 import image4 from '@/assets/images/body/image4.png';
-
-import './landing.scss';
 import PageIcon from '../PageIcon';
+import './landing.scss';
 
 
 interface Props {

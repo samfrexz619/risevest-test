@@ -134,6 +134,15 @@
   &__image {
     height: 461px;
   }
+
+  aside {
+    position: relative;
+
+    .phone-circle {
+      position: absolute;
+      right: -15px;
+    }
+  }
 }
 
 .proof {

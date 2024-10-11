@@ -1,8 +1,9 @@
 import React from 'react';
 import phone from '@/assets/images/phone.png';
 import BtnImage from '@/components/ui/BtnImage';
-import './banner.scss';
 import { useResize } from '@/hooks/useResize';
+import Circle from '@/components/ui/Circle';
+import './banner.scss';
 
 interface Props {
 
@@ -37,6 +38,9 @@ const Banner: React.FC<Props> = (props) => {
         </section>
         <aside>
           <img src={phone} alt="" className='banner__image' width={226} />
+          <div className='phone-circle'>
+            <Circle size='medium' />
+          </div>
         </aside>
       </div>
     </section>

@@ -13,6 +13,10 @@
   padding: 0;
 }
 
+body {
+  font-family: var(--dmsans);
+}
+
 a {
   text-decoration: none;
   color: inherit;

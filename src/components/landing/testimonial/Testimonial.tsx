@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import TestifyCard from '@/components/ui/TestifyCard';
+import { useResize } from '@/hooks/useResize';
 import './testimonial.scss';
 
 
-interface Props {
 
-}
+const Testimonial: React.FC = () => {
 
-const Testimonial: React.FC<Props> = (props) => {
+  const { isMobile } = useResize();
 
   const testifiers = [
     {
@@ -29,18 +29,6 @@ const Testimonial: React.FC<Props> = (props) => {
       name: 'Raye'
     },
   ];
-
-  const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth <= 768);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth <= 768)
-    }
-
-    window.addEventListener('resize', handleResize)
-
-    return () => window.removeEventListener('resize', handleResize)
-  }, [])
 
   return (
     <section className='testify'>

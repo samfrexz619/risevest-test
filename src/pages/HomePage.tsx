@@ -8,6 +8,7 @@ import SaveForFuture from '@/components/landing/save/SaveForFuture';
 import Regulated from '@/components/landing/Regulated';
 import Testimonial from '@/components/landing/testimonial/Testimonial';
 import '@/components/landing/banner/banner.scss';
+import JoinRise from '@/components/landing/community/JoinRise';
 
 const HomePage: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage: React.FC = () => {
       <SaveForFuture />
       <Regulated />
       <Testimonial />
+      <JoinRise />
     </section>
   );
 }

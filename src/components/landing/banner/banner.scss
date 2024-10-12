@@ -47,21 +47,23 @@
 
     @media (min-width: 1024px) {
       height: 264px;
-      width: 456px;
+      width: 480px;
       padding: 0;
     }
 
     h1 {
-      font-size: 40px;
+      font-size: 38px;
       line-height: 36px;
-      letter-spacing: -5%;
+      letter-spacing: -10%;
       text-align: center;
-      font-weight: 600;
+      font-weight: 700;
       color: var(--pry);
       position: relative;
       width: auto;
+      background-color: antiquewhite;
 
       @media (min-width: 1024px) {
+        font-size: 40px;
         width: 100%;
         line-height: 60px;
         font-size: 56px;
@@ -116,7 +118,7 @@
 
         @media (min-width: 1024px) {
           background: #40BBC3;
-          right: -2px;
+          right: 2px;
           top: 5.2rem;
 
         }

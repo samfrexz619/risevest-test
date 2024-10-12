@@ -1,35 +1,21 @@
 @font-face {
   font-family: TomatoGrotesk;
-  font-weight: 300;
-  src: url('/assets/fonts/TomatoGrotesk-Light.528f79fd.otf') format('opentype');
-  font-display: swap;
-}
-
-@font-face {
-  font-family: TomatoGrotesk;
   font-weight: 400;
-  src: url('/assets/fonts/TomatoGrotesk-Regular.63ff49eb.otf') format('opentype');
-  font-display: swap;
-}
-
-@font-face {
-  font-family: TomatoGrotesk;
-  font-weight: 500;
-  src: url('/assets/fonts/TomatoGrotesk-Medium.8b894f94.otf') format('opentype');
-  font-display: swap;
-}
-
-@font-face {
-  font-family: TomatoGrotesk;
-  font-weight: 600;
-  src: url('/assets/fonts/TomatoGrotesk-SemiBold.1183d758.otf') format('opentype');
+  src: url('./assets/fonts/Lato-Regular.ttf');
   font-display: swap;
 }
 
 @font-face {
   font-family: TomatoGrotesk;
   font-weight: 700;
-  src: url('/assets/fonts/TomatoGrotesk-Bold.74a33382.otf') format('opentype');
+  src: url('./assets/fonts/Lato-Bold.ttf');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: TomatoGrotesk;
+  font-weight: 900;
+  src: url('./assets/fonts/Lato-Black.ttf');
   font-display: swap;
 }
 

@@ -75,6 +75,21 @@ export const explore = [
     path: '#',
     pathName: 'Blog'
   },
+  {
+    id: '3',
+    path: '#',
+    pathName: 'Newsletter'
+  },
+  {
+    id: '4',
+    path: '#',
+    pathName: 'Instagram'
+  },
+  {
+    id: '5',
+    path: '#',
+    pathName: 'Twitter'
+  },
 ];
 
 export const products = [

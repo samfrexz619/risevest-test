@@ -4,9 +4,12 @@ import PageIcon from '../PageIcon';
 import { contact, explore, footerLink, products } from '@/constants/navlinks';
 import arrow from '@/assets/images/arr.svg';
 import './footer.scss';
+import { useResize } from '@/hooks/useResize';
 
 
 const Footer: React.FC = () => {
+  const { isMobile } = useResize();
+
   return (
     <footer>
       <nav>
@@ -28,16 +31,28 @@ const Footer: React.FC = () => {
         <ul>
           <h4>Explore</h4>
           {
-            explore.map(link => (
-              <li key={link.id}>
-                <NavLink to={link.path}>
-                  <span>{link.pathName}</span>
-                  <span className='icon'>
-                    <img src={arrow} alt="" />
-                  </span>
-                </NavLink>
-              </li>
-            ))
+            isMobile ?
+              (explore.map(link => (
+                <li key={link.id}>
+                  <NavLink to={link.path}>
+                    <span>{link.pathName}</span>
+                    <span className='icon'>
+                      <img src={arrow} alt="" />
+                    </span>
+                  </NavLink>
+                </li>
+              )))
+              :
+              (explore.slice(0, 2).map(link => (
+                <li key={link.id}>
+                  <NavLink to={link.path}>
+                    <span>{link.pathName}</span>
+                    <span className='icon'>
+                      <img src={arrow} alt="" />
+                    </span>
+                  </NavLink>
+                </li>
+              )))
           }
         </ul>
 

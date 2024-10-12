@@ -126,12 +126,20 @@
   border-radius: 50%;
   position: relative;
   margin: 0 10px;
-  animation: bounce 2s infinite ease-in-out;
+  // animation: bounce 2s infinite ease-in-out;
   background: #A0DDE2;
   // background: radial-gradient(circle at 30% 30%, #D2F1F3, #7DB9BC 70%);
   // box-shadow: inset -10px -10px 20px rgba(255, 255, 255, 0.5),
   //   10px 10px 20px rgba(0, 0, 0, 0.3);
   z-index: -1;
+}
+
+.down {
+  animation: bounce-down 2s infinite ease-in-out;
+}
+
+.up {
+  animation: bounce 2s infinite ease-in-out;
 }
 
 .md-size {
@@ -153,5 +161,17 @@
 
   50% {
     transform: translateY(-50px);
+  }
+}
+
+@keyframes bounce-down {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(50px);
   }
 }

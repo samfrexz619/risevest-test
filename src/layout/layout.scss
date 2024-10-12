@@ -12,6 +12,8 @@ main {
   animation: slideUp 0.7s ease-in-out forwards;
   animation-fill-mode: initial;
   -webkit-animation-fill-mode: initial;
+  width: 100%;
+  background: #fff;
 }
 
 .scroll__header.visible {

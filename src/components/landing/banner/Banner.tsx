@@ -42,19 +42,19 @@ const Banner: React.FC = () => {
       </div>
       <section className='circle__section'>
         <div className='first'>
-          <Circle size='small' />
+          <Circle size='small' direction='down' />
         </div>
         <div className='second'>
-          <Circle size='medium' />
+          <Circle size='medium' direction='up' />
         </div>
         <div className='third'>
-          <Circle size='small' />
+          <Circle size='small' direction='up' />
         </div>
         <div className='fourth'>
-          <Circle size='medium' />
+          <Circle size='medium' direction='up' />
         </div>
         <div className='fifth'>
-          <Circle size='medium' />
+          <Circle size='medium' direction='down' />
         </div>
       </section>
     </section>

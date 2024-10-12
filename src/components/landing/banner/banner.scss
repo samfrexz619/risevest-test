@@ -145,6 +145,49 @@
   }
 }
 
+.circle__section {
+  // height: 100%;
+  // width: 100%;
+  // position: absolute;
+  // top: -23px;
+  // left: 0;
+  display: none;
+
+  @media (min-width: 1024px) {
+    display: block;
+  }
+
+  .first {
+    position: absolute;
+    top: 30px;
+    left: 130px;
+  }
+
+  .second {
+    position: absolute;
+    right: 3rem;
+    bottom: 5rem;
+  }
+
+  .third {
+    position: absolute;
+    right: 22rem;
+    bottom: 6rem;
+  }
+
+  .fourth {
+    position: absolute;
+    left: 14rem;
+    bottom: 4rem;
+  }
+
+  .fifth {
+    position: absolute;
+    right: 31rem;
+    top: -13px;
+  }
+}
+
 .proof {
   height: 103px;
   display: flex;

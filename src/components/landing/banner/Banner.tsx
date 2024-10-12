@@ -35,11 +35,28 @@ const Banner: React.FC = () => {
         </section>
         <aside>
           <img src={phone} alt="" className='banner__image' width={226} />
-          <div className='phone-circle'>
+          {/* <div className='phone-circle'>
             <Circle size='medium' />
-          </div>
+          </div> */}
         </aside>
       </div>
+      <section className='circle__section'>
+        <div className='first'>
+          <Circle size='small' />
+        </div>
+        <div className='second'>
+          <Circle size='medium' />
+        </div>
+        <div className='third'>
+          <Circle size='small' />
+        </div>
+        <div className='fourth'>
+          <Circle size='medium' />
+        </div>
+        <div className='fifth'>
+          <Circle size='medium' />
+        </div>
+      </section>
     </section>
   );
 }

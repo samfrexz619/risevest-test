@@ -8,6 +8,7 @@ import { useResize } from '@/hooks/useResize';
 
 
 const Footer: React.FC = () => {
+
   const { isMobile } = useResize();
 
   return (

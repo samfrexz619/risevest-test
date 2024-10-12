@@ -8,7 +8,10 @@ main {
   position: sticky;
   z-index: 100;
   transition: top 0.3s;
-  transition: transform 0.3s ease-in-out;
+  // transition: transform 0.3s ease-in-out;
+  animation: slideUp 0.7s ease-in-out forwards;
+  animation-fill-mode: initial;
+  -webkit-animation-fill-mode: initial;
 }
 
 .scroll__header.visible {
@@ -17,6 +20,18 @@ main {
 
 .scroll__header.hidden {
   transform: translateY(-100%);
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 // .demo {
@@ -40,17 +55,7 @@ main {
 //   }
 // }
 
-// @keyframes bounce {
 
-//   0%,
-//   100% {
-//     transform: translateY(0);
-//   }
-
-//   50% {
-//     transform: translateY(100px);
-//   }
-// }
 
 @keyframes bounce-elastic {
 

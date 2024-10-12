@@ -60,7 +60,6 @@
       color: var(--pry);
       position: relative;
       width: auto;
-      background-color: antiquewhite;
 
       @media (min-width: 1024px) {
         font-size: 40px;
@@ -143,6 +142,11 @@
     .phone-circle {
       position: absolute;
       right: -15px;
+      display: none;
+
+      @media (min-width: 1024px) {
+        display: block;
+      }
     }
   }
 }

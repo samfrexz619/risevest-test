@@ -1,5 +1,5 @@
 import React from 'react';
-import phone from '@/assets/images/save/Phone.png';
+import phone from '@/assets/images/save/phone.png';
 import { NavLink } from 'react-router-dom';
 import PageIcon from '@/components/PageIcon';
 import './save.scss';

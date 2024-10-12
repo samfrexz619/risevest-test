@@ -31,8 +31,6 @@
       color: var(--pry);
       font-weight: 400;
     }
-
-
   }
 
   &__links {
@@ -41,6 +39,7 @@
     text-align: center;
     display: flex;
     transition: .2s linear;
+    font-weight: 400;
 
     @media (min-width: 1024px) {
       gap: 23px;

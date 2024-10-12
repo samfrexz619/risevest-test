@@ -27,7 +27,7 @@ export const navLinks = [
   {
     id: '6',
     path: '/faqs',
-    pathName: 'FAQS'
+    pathName: 'FAQs'
   },
 ];
 

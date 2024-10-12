@@ -18,11 +18,7 @@ const TopNav: React.FC<TopNavProps> = ({ openMobileNav }) => {
 
   return (
     <>
-      {/* <div className='webrise'>
-        <img src={lock} alt="padlock" />
-        <p>web.rise.capital</p>
-      </div> */}
-      <header className='header'> 
+      <header className='header'>
         <NavLink to='/' className='header-logo'>
           <PageIcon iconName='logo' />
         </NavLink>

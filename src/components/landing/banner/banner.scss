@@ -2,23 +2,17 @@
   width: 100%;
   margin: 0 auto;
   height: 100%;
-  // background-color: aliceblue;
   margin-top: 23px;
-  // display: flex;
-  // gap: 60px;
-  // align-items: center;
-  // flex-direction: column;
   padding-bottom: 80px;
   background-image: url('@/assets/images/banner-bg-sm.png');
   background-repeat: no-repeat;
   background-size: contain;
+  position: relative;
 
   @media (min-width: 1024px) {
     background-image: none;
-    // justify-content: space-between;
     height: 564px; //461px;
     width: 1152px; //931px;
-    // flex-direction: row;
   }
 
   &__wrapper {

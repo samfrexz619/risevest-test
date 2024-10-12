@@ -21,13 +21,14 @@
     letter-spacing: -5%;
 
     @media (min-width: 1024px) {
-      width: 547px;
+      width: 560px;
     }
 
     h2 {
       color: #40BBC3;
       font-weight: 600;
       font-size: 32px;
+      // background: antiquewhite;
 
       @media (min-width: 1024px) {
         font-size: 40px;
